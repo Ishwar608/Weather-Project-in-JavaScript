@@ -68,3 +68,9 @@ span{
     width: 130px;
     height: 200px;
 }
+
+@media only screen and (max-width: 600px) {
+    input {
+      width: auto;
+    }
+  }
