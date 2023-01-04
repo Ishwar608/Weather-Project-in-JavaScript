@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background: url("img/weather\ Background.jpg") center/cover no-repeat rgba(43, 42, 42, 0.8);
+    background-blend-mode: overlay;
+}
+.container{
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 400px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 17px;
+    border: none;
+}
+input[type="submit"]{
+    width: auto;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid gray;
+}
+.main{
+    color: #fff;
+    margin: 10px;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.tmp{
+    display: flex;
+    align-items: center;
+}
+.temp{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: right;
+}
+.temp span{
+    font-size: 24px;
+}
+.tmpe{
+    font-size: 25px;
+}
+span{
+    color: rgb(180, 165, 165);
+}
+.dt{
+    margin-left: 50px;
+    font-size: 18px;
+}
+.dt p{
+    margin: 5px;
+}
+#anim{
+    width: 130px;
+    height: 200px;
+}
